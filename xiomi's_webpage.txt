@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Xiomi's World</title>
+</head>
+<body>
+<h1>Welcome to Xiomi's real world</h1>
+<p>But first, let me ask you a simple question, just be true to yourself</p></br>
+<p>Are you ready for this?</p></br>
+<p>Are you with me</p>
+
+yes<input type="radio" name="yesno"></br>
+No<input type="radio" name="yesno"></br>
+
+
+
+
+
+</body>
+</html>
