@@ -12,8 +12,8 @@ h1 {
 
 #header {
     background: #d8d8ff;
-    border-radius: 1em;
-    margin: 1em;
+    border-radius: 0.5em;
+    margin: 0.5em;
     font-family: "garamond";
 }
 
@@ -39,7 +39,7 @@ h1 {
 #audio {
     border-radius: 1em;
     margin: 1em;
-    text-align: "center":
+
 }
 
 #texto {
@@ -61,162 +61,41 @@ h1 {
     font-size: 110%;
 }
 
-#pais {
-    padding:5px;
-    width: 40%;
-    background: #dfdfff;
-    border-radius: 1em;
-    margin: 0.2em;
-    font-family: "garamond";
-    font-size: 110%;
+#pais {width:20% ;
+        height: 60%;
+        }
+
+#cada{font-size: medium}
+
+#contenido{
+    font-size: large;
+    font-family:Garamond;
 }
 
-a.open {
-    background-color: #414141;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    margin: 20px;
-    padding: 6px 15px;
-    position: absolute;
-    text-decoration: none;
-    text-shadow: 2px 2px 0px #000;
-    -webkit-transition: background-color: 1s;
+
+#x1{color: red;}
+#x2{color:darkred}
+#x3{color: mediumvioletred}
+
+#sel1{
+    width:20% ;
+    height: 60%;
+    font-size: medium;
 }
 
-a.open:hover {
-    background-color: #111;
+.container{
+    font-family: Garamond;
+    font-size:medium;
 }
 
-section.modalDialog {
-    background-color: rgba(0, 0, 0, 0.5);
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    position: fixed;
-    z-index: -2;
-    -webkit-transition: opacity 1s;
-}
-
-section.modalDialog:target {
-    opacity: 1;
-}
-
-a.close:hover {
-    background-color: #111;
-}
-
-a.close {
-    background-color: #414141;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    top: 5px;
-    right: 5px;
-    line-height: 22px;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    width: 28px;
-}
-
-a.close {
-    background-color: red;
-    cursor: crosshair;
-}
-
-section.modal {
-    background-color: #111;
-    border-radius: 0px, 0px, 10px #000;
-    box-shadow: 5px;
-    margin: 10% auto;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    width: 400px;
+#yover{
+    font-size:large;
 
 }
 
-h2 {
-    color: #fff;
-    font-size: 1.4em;
-    margin-bottom: 10px;
+#ventanas{
+    font-size: xx-large;
+    border-radius: 0.5em;
 }
 
-a.ventana {
-    color: #fff;
-    font-size: 1.2em;
-}
-
-a.open {
-    background-color: #414141;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1em;
-    margin: 2px;
-    padding: 6px 15px;
-    position: absolute;
-    text-decoration: none;
-    text-shadow: 2px 2px 0px #000;
-    -webkit-transition: background-color: 1s;
-}
-
-a.open:hover {
-    background-color: #fff;
-}
-
-section.modalDialog2 {
-    background-color: rgba(0, 0, 0, 0.5);
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    position: fixed;
-    z-index: -2;
-    -webkit-transition: opacity 1s;
-}
-
-section.modalDialog2:target {
-    opacity: 1;
-}
-
-a.close2 {
-    background-color: #414141;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    top: 5px;
-    right: 5px;
-    line-height: 22px;
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    width: 28px;
-}
-
-a.close2 {
-    background-color: red;
-}
-
-section.modal2 {
-    background-color: #111;
-    border-radius: 0px, 0px, 10px #000;
-    box-shadow: 5px;
-    margin: 10% auto;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    width: 400px;
-
-}
-	
-	
-
-	
-	
-	
+#b1,#b2, #b3 {font-size: medium}
